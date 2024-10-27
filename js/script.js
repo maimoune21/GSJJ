@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
       entries.forEach(entry => {
           if (entry.isIntersecting && !hasAnimated) {
               hasAnimated = true;
-              animateCount(creationSpan, 0, startYear, 2000);
-              animateCount(expertiseSpan, 0, yearsOfExpertise, 2000);
+              animateCount(creationSpan, 0, startYear, 1000);
+              animateCount(expertiseSpan, 0, yearsOfExpertise, 1000);
           }
       });
   }
