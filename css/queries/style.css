@@ -775,20 +775,16 @@
   }
 }
 @media (max-width: 650px) {
-  .heading-primary {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-}
-@media (max-width: 600px) {
   .reglement {
     grid-template-columns: 1fr;
+    padding: 100px 20%;
   }
   .reglement-p2 {
     gap: 20px;
+    grid-row: 1; 
   }
   .heading-primary {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
   }
   .download-container > h3 {
@@ -799,12 +795,17 @@
     gap: 40px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .reglement {
-    gap: 30px;
+    padding: 100px 15%;
   }
 }
-
+@media (max-width: 400px) {
+  .reglement {
+    padding: 100px 10%;
+    gap: 30px;
+}
+}
 /*------------------------------ Nos-Site : -----------------------------------------*/
 @media (max-width: 1000px) {
   .Nos-Site {
