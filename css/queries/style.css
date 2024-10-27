@@ -377,7 +377,7 @@
 @media (max-width: 550px) {
   .Creation-infos {
     flex-direction: column;
-    gap: 60px;
+    gap: 100px;
   }
   .C-Infos > span {
     font-size: 45px;
@@ -752,7 +752,7 @@
 
   .download-container {
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
   .reglement-img {
     width: 100%;
@@ -774,6 +774,10 @@
   }
   .download-container > h3 {
     font-size: 17px;
+  }
+  .download-container {
+    flex-direction: column;
+    gap: 40px;
   }
 }
 @media (max-width: 400px) {
@@ -892,6 +896,9 @@
     padding: 10px 60px;
   }
   .type1::before {
+    width: -webkit-fill-available;
+  }
+  .type1::after{
     width: -webkit-fill-available;
   }
 }
