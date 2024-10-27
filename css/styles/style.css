@@ -475,6 +475,7 @@ ul {
 /*<!--************************************************************-->*/
 /*<!------------------------ #MAIN: -------------------------------->*/
 /*<!--************************************************************-->*/
+
 /*<!--- # Intro : --->*/
 .Intro {
   background-image: url(../../data/pictures/bg1.jpg);
@@ -736,7 +737,7 @@ ul {
   padding: 0 80px;
   font-size: 1.07rem;
   box-sizing: border-box;
-  line-height: 26px;
+  line-height: 1.8;
   color: #12264f;
   text-align: justify;
   font-family: "Andika", "sans-serif";
@@ -751,6 +752,24 @@ ul {
   width: 100%;
   height: 630px;
 }
+.hidden-text {
+  display: none;
+}
+.read-more-label {
+  color: #70b8ba;
+  cursor: pointer;
+  font-weight: bold;
+}
+.read-more-toggle:checked + .hidden-text {
+  display: inline;
+}
+.read-more-toggle:checked + .hidden-text + .read-more-label::after {
+  content: " Lire moins";
+}
+.read-more-toggle {
+  display: none;
+}
+
 /*<!--************************************************************-->*/
 /*<!--- # Niveaux : --->*/
 
