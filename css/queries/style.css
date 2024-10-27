@@ -450,7 +450,7 @@
 }
 @media (max-width: 750px) {
   .MOT-DU-DIRECTEUR {
-    padding: 80px 5%;
+    padding: 100px 5%;
   }
   .MDD {
     font-size: 1.4rem;
@@ -739,7 +739,7 @@
 }
 @media (max-width: 900px) {
   .reglement {
-    padding: 80px 8%;
+    padding: 100px 8%;
     gap: 40px;
     grid-template-columns: 1fr 1fr;
   }
@@ -835,10 +835,12 @@
     font-size: 11px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 700px) {
   .Nos-Site {
-    padding: 60px 5% 90px;
+    padding: 100px 5% 100px;
   }
+}
+@media (max-width: 550px) {
   .heading-child-cont {
     display: flex;
     flex-direction: column;
@@ -990,7 +992,7 @@
     gap: 1px;
   }
   .Contactez-nous {
-    padding: 100px 5%;
+    padding: 120px 5%;
   }
   .Contact-f1 > h1 {
     font-size: 23px;
