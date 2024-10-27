@@ -1741,7 +1741,7 @@ ul {
 .stroke svg circle {
   fill: transparent;
   stroke-width: 4;
-  stroke: #ff9143;
+  stroke: #70b8ba;
   stroke-dasharray: 119.38;
   stroke-dashoffset: 119.38;
   transition: stroke-dashoffset 0.3s linear;
