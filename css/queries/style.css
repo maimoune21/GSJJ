@@ -781,7 +781,7 @@
   }
   .reglement-p2 {
     gap: 20px;
-    grid-row: 1; 
+    grid-row: 1;
   }
   .heading-primary {
     font-size: 1.3rem;
@@ -804,7 +804,7 @@
   .reglement {
     padding: 100px 10%;
     gap: 30px;
-}
+  }
 }
 /*------------------------------ Nos-Site : -----------------------------------------*/
 @media (max-width: 1000px) {
@@ -877,10 +877,13 @@
     font-size: 1.8rem;
   }
   .underline-shcool {
-    width: 106%;
+    width: 112%;
   }
   .shcool-line {
-    width: 91%;
+    width: 98%;
+  }
+  .shcool-first-p {
+    margin-left: -22px;
   }
 }
 @media (max-width: 300px) {
@@ -888,15 +891,31 @@
     font-size: 1.6rem;
   }
   .underline-shcool {
-    width: 103% !important;
+    width: 111% !important;
   }
   .shcool-line {
-    width: 82% !important;
+    width: 85% !important;
+  }
+  .shcool-icon {
+    font-size: 25px;
+  }
+  .shcool-first-p {
+    margin-left: -18px;
   }
 }
 @media (max-width: 250px) {
   .Nos-Site-Heading {
     font-size: 1.4rem;
+    margin-left: -14px;
+  }
+  .shcool-first-p {
+    margin-left: 0px;
+  }
+  .underline-shcool {
+    width: 105% !important;
+  }
+  .shcool-line {
+    width: 85% !important;
   }
 }
 
