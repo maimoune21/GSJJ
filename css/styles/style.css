@@ -763,8 +763,14 @@ ul {
 .read-more-toggle:checked + .hidden-text {
   display: inline;
 }
-.read-more-toggle:checked + .hidden-text + .read-more-label::after {
+.read-more-toggle:checked + .hidden-text + .read-more-label {
+  display: inline;
+}
+.read-more-toggle:checked + .hidden-text + .read-more-label::before {
   content: " Lire moins";
+}
+.read-more-label::before {
+  content: "Lire plus";
 }
 .read-more-toggle {
   display: none;
