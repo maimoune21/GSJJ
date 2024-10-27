@@ -377,7 +377,7 @@
 @media (max-width: 550px) {
   .Creation-infos {
     flex-direction: column;
-    gap: 150px;
+    gap: 120px;
   }
   .C-Infos > span {
     font-size: 45px;
