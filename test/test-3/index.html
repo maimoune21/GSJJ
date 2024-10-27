@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #193d57;
+        margin: 0;
+      }
+      .events-container {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 5%;
+      }
+      .all-events-container{
+        overflow: hidden;
+        width: auto;
+        position: relative;
+      }
+      .all-events {
+        display: flex;
+        justify-content: center;
+        padding: 0 10%;
+        gap: 40px;
+        position: relative;
+        overflow: hidden;
+      }
+      .events-heading-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+      .events-heading-cont h2 {
+        color: #70b8ba;
+        font-size: 1.3rem;
+        margin: 0;
+      }
+      .events-heading-cont h1 {
+        color: #fff;
+        font-size: 2.2rem;
+        margin: 0;
+        border-bottom: 6px solid #fff;
+        display: inline-block;
+      }
+      .events {
+        display: flex;
+        gap: 40px;
+      }
+      .event {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        max-height: 400px;
+        overflow: hidden;
+      }
+      .event-img {
+        width: 100%;
+        height: 100%;
+      }
+      .event-content {
+        display: flex;
+        flex-direction: column;
+        background-color: #e6e6e6;
+        padding: 20px 15% 20px 15px;
+        gap: 6px;
+        flex-grow: 1;
+      }
+      .event-content h3,
+      p {
+        margin: 0;
+      }
+      .event-content h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.5;
+      }
+      .event-content p {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #193d57;
+      }
+      .events-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 15px;
+      }
+      .events-voire-tout-btn {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #092637;
+        padding: 8px 22px;
+        border-radius: 3px;
+      }
+      .events-nav {
+        position: absolute;
+        top: 50%;
+        width: calc(94% + 0px);
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+        pointer-events: none;
+        pointer-events: all;
+        padding: 0 10px;
+      }
+      .events-nav .events-prev,
+      .events-nav .events-next {
+        background-color: #d1d1d1;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.5rem;
+        cursor: pointer;
+        pointer-events: all;
+        transition: background-color 0.3s ease;
+      }
+      .all-events:hover .events-nav .events-prev,
+      .all-events:hover .events-nav .events-next {
+        background-color: #004d7a;
+      }
+      .events-nav .events-prev:hover,
+      .events-nav .events-next:hover {
+        background-color: #006ea8;
+      }
+      .arrow {
+        font-size: 19px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="events-container">
+      <span class="events-heading-cont">
+        <h2>Restez à jour</h2>
+        <span class="actualites">
+          <h1>Actualités</h1>
+        </span>
+      </span>
+      <div class="all-events-container">
+        <div class="all-events">
+          <div class="event">
+            <span>
+              <img
+                src="../../data/pictures/maternelle.jpg"
+                class="event-img"
+                alt=""
+              />
+            </span>
+            <span class="event-content">
+              <p>22/10/2024</p>
+              <h3>Al Jail Al Jadid !</h3>
+            </span>
+          </div>
+          <div class="event">
+            <span>
+              <img
+                src="../../data/pictures/maternelle.jpg"
+                class="event-img"
+                alt=""
+              />
+            </span>
+            <span class="event-content">
+              <p>22/10/2024</p>
+              <h3>
+                Science at the core of learning et avec un bone travailler de
+                l'egistence al jail al jadid !
+              </h3>
+            </span>
+          </div>
+          <div class="event">
+            <span>
+              <img
+                src="../../data/pictures/maternelle.jpg"
+                class="event-img"
+                alt=""
+              />
+            </span>
+            <span class="event-content">
+              <p>22/10/2024</p>
+              <h3>Découvrez un nouveau monde !</h3>
+            </span>
+          </div>
+          <!-- Navigation Arrows -->
+          <div class="events-nav">
+            <div class="events-prev">
+              <i class="fa-solid fa-arrow-left arrow"></i>
+            </div>
+            <div class="events-next">
+              <i class="fa-solid fa-arrow-right arrow"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="events-btn">
+        <a href="" class="events-voire-tout-btn">voir tout</a>
+      </div>
+    </div>
+  </body>
+  <script></script>
+</html>
