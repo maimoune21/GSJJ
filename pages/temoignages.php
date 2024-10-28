@@ -19,6 +19,9 @@
     <!---#CSS Links: --->
     <link rel="stylesheet" href="../css/styles/main.css">
     <link rel="stylesheet" href="../css/styles/temoignages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../icons/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles/nav.css">
 </head>
 
 <body>
