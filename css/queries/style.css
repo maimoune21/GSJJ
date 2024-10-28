@@ -740,8 +740,8 @@
 @media (max-width: 900px) {
   .reglement {
     padding: 100px 8%;
-    gap: 40px;
-    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    grid-template-columns: 0.8fr 1fr;
   }
   .reglement-p2 {
     display: flex;
@@ -750,11 +750,11 @@
     padding: 0;
   }
   .heading-primary {
-    font-size: 1.55rem;
+    font-size: 1.65rem;
     text-align: initial;
   }
   .download-container > h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .download-container {
@@ -769,22 +769,22 @@
   }
 }
 @media (max-width: 750px) {
-  .heading-primary {
-    font-size: 1.33rem;
-    text-align: center;
-  }
-}
-@media (max-width: 650px) {
   .reglement {
     grid-template-columns: 1fr;
     padding: 100px 20%;
+  }
+  .heading-primary {
+    font-size: 1.7rem;
+    text-align: center;
   }
   .reglement-p2 {
     gap: 20px;
     grid-row: 1;
   }
+}
+@media (max-width: 650px) {
   .heading-primary {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
   }
   .download-container > h3 {
