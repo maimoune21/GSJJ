@@ -1,12 +1,11 @@
 /*<!--************************************************************-->*/
 /*<!--- #HEADER: --->*/
 header {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  padding-bottom: env(safe-area-inset-bottom);
-  box-sizing: border-box;
+    position: relative;
+    height: var(--visible-vh); /* Adjusts to the visible area */
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 .main-img {
   position: absolute;
