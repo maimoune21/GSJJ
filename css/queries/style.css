@@ -1172,4 +1172,285 @@
   }
 }
 
+/*------------------------------ Nav : -----------------------------------------*/
+@media (max-width: 1300px) {
+  .main-img {
+    left: 2%;
+    height: 62px;
+    width: 62px;
+  }
+}
+@media (max-width: 1150px) {
+  .infos {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1100px) {
+  .menu-nav > li {
+    font-size: 12px;
+  }
+  .menu-nav {
+    gap: 15px;
+  }
+  .infos {
+    height: 275px;
+  }
+  .drop-parent {
+    width: 350px;
+  }
+}
+@media (max-width: 1000px) {
+  .main-img {
+    left: 1%;
+    height: 55px;
+    width: 55px;
+  }
+  .button:hover .img-Maternelle-ToolTip {
+    border: 5px solid #007bff;
+    top: -1440%;
+  }
+  .img-Maternelle-ToolTip {
+    height: 200px;
+    width: 200px;
+  }
+  .drop-parent {
+    width: 320px;
+  }
+}
+@media (max-width: 950px) {
+  .drop-parent {
+    width: 300px;
+  }
+}
+@media (max-width: 900px) {
+  .menu-nav {
+    display: none;
+  }
+  .main-img {
+    left: 4%;
+    height: 65px;
+    width: 65px;
+  }
+  .mobil-bar {
+    display: inline-block;
+    color: rgba(112, 184, 186, 0.9);
+    font-size: 1.6rem;
+  }
+  nav {
+    justify-content: right;
+    padding: 7px 5%;
+    width: 100%;
+  }
+  .separator {
+    margin: 0 0px;
+  }
+  .levels {
+    font-size: 1rem;
+  }
+  .infos {
+    margin-left: 3%;
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 3% 5% 4% 5%;
+    margin-right: 30%;
+  }
+  .discover {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+  .shcool-name {
+    font-size: 1.4rem;
+    padding: 0;
+  }
+  .intro {
+    padding: 0;
+    font-size: 0.95rem;
+    margin-top: 5px;
+  }
+  .Commencer {
+    margin: 0;
+    font-size: 12px;
+    padding: 8px 6px;
+    margin-top: 10px;
+    transform: rotateX(50deg) rotateZ(6deg);
+  }
+  .img-Maternelle-ToolTip::before {
+    border-width: 33px 10px 0;
+  }
+}
+@media (max-width: 850px) {
+  .infos {
+    margin-right: 22%;
+  }
+}
+@media (max-width: 800px) {
+  .img-Maternelle-ToolTip {
+    height: 185px;
+    width: 185px;
+  }
+  .button:hover .img-Maternelle-ToolTip {
+    top: -1355%;
+  }
+}
+@media (max-width: 750px) {
+  .intro {
+    font-size: 0.9rem;
+  }
+  nav {
+    padding: 6px 5%;
+  }
+}
+@media (max-width: 700px) {
+  .infos {
+    margin-right: 25%;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  nav {
+    padding: 8px 5%;
+  }
+  .intro-hidden-text {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .infos {
+    margin-right: 20%;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    height: 98vh;
+  }
+  .discover {
+    font-size: 2.3rem;
+  }
+  .shcool-name {
+    font-size: 1.3rem;
+  }
+  .intro {
+    font-size: 0.95rem;
+  }
+  .infos {
+    margin-right: 20%;
+  }
+}
+@media (max-width: 550px) {
+  nav {
+    padding: 2% 5%;
+  }
+  .mobil-bar {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .infos {
+    margin-left: 0%;
+    width: -webkit-fill-available;
+    height: auto;
+    padding: 5% 5% 6% 5%;
+    margin-right: 8%;
+  }
+}
+@media (max-width: 450px) {
+  .discover {
+    font-size: 2rem;
+    padding: 0;
+  }
+  .shcool-name {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+  .img-Maternelle-ToolTip {
+    height: 175px;
+    width: 175px;
+  }
+  .button:hover .img-Maternelle-ToolTip {
+    top: -1280%;
+  }
+}
+@media (max-width: 400px) {
+  .main-img {
+    left: 3%;
+  }
+  .img-Maternelle-ToolTip {
+    height: 160px;
+    width: 160px;
+  }
+  .button:hover .img-Maternelle-ToolTip {
+    top: -1190%;
+  }
+  nav {
+    padding: 3% 5%;
+  }
+  .mobil-bar {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 350px) {
+  .infos {
+    padding: 5% 5% 9% 5%;
+  }
+  .discover {
+    font-size: 1.9rem;
+  }
+  .shcool-name {
+    font-size: 1.15rem;
+  }
+  .intro {
+    font-size: 0.88rem;
+  }
+  .main-img {
+    left: 2%;
+    height: 60px;
+    width: 60px;
+  }
+  .img-Maternelle-ToolTip {
+    height: 140px;
+    width: 140px;
+  }
+  .button:hover .img-Maternelle-ToolTip {
+    top: -1070%;
+  }
+}
+@media (max-width: 300px) {
+  .intro {
+    font-size: 0.8rem;
+  }
+  .img-Maternelle-ToolTip {
+    height: 120px;
+    width: 120px;
+  }
+  .button:hover .img-Maternelle-ToolTip {
+    top: -930%;
+  }
+  .mobil-bar {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 250px) {
+  .discover {
+    font-size: 1.7rem;
+  }
+  .shcool-name {
+    font-size: 1.05rem;
+  }
+  .infos {
+    padding: 5% 5% 10% 5%;
+  }
+  .main-img {
+    left: 1%;
+    height: 55px;
+    width: 55px;
+  }
+  .img-Maternelle-ToolTip {
+    height: 95px;
+    width: 95px;
+  }
+  .button:hover .img-Maternelle-ToolTip {
+    top: -810%;
+  }
+}
+
 /* Min : 190px viewport*/
