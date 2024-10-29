@@ -1,0 +1,105 @@
+@media (max-width: 1200px) {
+  .schedule-table th,
+  .schedule-table td {
+    padding: 18px 20px;
+  }
+}
+@media (max-width: 700px) {
+  .hohaires {
+    padding: 100px 10%;
+  }
+}
+@media (max-width: 450px) {
+  .hohaires {
+    padding: 100px 5%;
+  }
+  .schedule-table th,
+  .schedule-table td {
+    padding: 18px 14px;
+    font-size: 17px;
+  }
+  .schedule-table td strong {
+    color: #333;
+    font-size: 17px;
+  }
+}
+@media (max-width: 400px) {
+  .hohaires {
+    padding: 100px 5%;
+  }
+  .schedule-table th,
+  .schedule-table td {
+    padding: 18px 13px;
+    font-size: 15px;
+  }
+  .schedule-table td strong {
+    color: #333;
+    font-size: 17px;
+  }
+}
+@media (max-width: 380px) {
+  .hohaires {
+    padding: 100px 5%;
+  }
+  .schedule-table th,
+  .schedule-table td {
+    padding: 18px 10px;
+    font-size: 15px;
+  }
+  .schedule-table td strong {
+    color: #333;
+    font-size: 18px;
+  }
+}
+@media (max-width: 350px) {
+  .hohaires {
+    padding: 100px 5%;
+  }
+  .schedule-table th,
+  .schedule-table td {
+    padding: 18px 10px;
+    font-size: 13px;
+  }
+  .schedule-table td strong {
+    color: #333;
+    font-size: 15px;
+  }
+}
+@media (max-width: 300px) {
+  .schedule-table {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .schedule-table th,
+  .schedule-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .schedule-table tbody {
+    display: block;
+    width: 100%;
+  }
+  .schedule-table tr {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  .schedule-table th {
+    display: none;
+  }
+  .schedule-table td {
+    flex: 1;
+    text-align: center;
+    position: relative;
+  }
+  .schedule-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+  }
+  .hohaires {
+    padding: 100px 10%;
+  }
+}
