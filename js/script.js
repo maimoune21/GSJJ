@@ -1,3 +1,5 @@
+/******************************************************************************/
+/* Calculate The Header View Height */
 function setVisibleHeight() {
     const visibleHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;
     document.documentElement.style.setProperty('--visible-vh', `${visibleHeight}px`);
