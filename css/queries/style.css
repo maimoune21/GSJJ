@@ -1321,7 +1321,7 @@
 }
 @media (max-width: 600px) {
   header {
-    height: 98vh;
+    height: 90vh;
   }
   .discover {
     font-size: 2.3rem;
