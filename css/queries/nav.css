@@ -48,7 +48,7 @@
   .mobil-bar {
     display: inline-block;
     color: rgba(112, 184, 186, 0.9);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   nav {
     justify-content: right;
@@ -66,7 +66,7 @@
     width: -webkit-fill-available;
     height: auto;
     padding: 3% 5% 4% 5%;
-    margin-right: 22%;
+    margin-right: 30%;
   }
   .discover {
     font-size: 2.5rem;
@@ -90,6 +90,11 @@
   }
   .img-Maternelle-ToolTip::before {
     border-width: 33px 10px 0;
+  }
+}
+@media (max-width: 850px) {
+  .infos {
+    margin-right: 22%;
   }
 }
 @media (max-width: 800px) {
@@ -144,7 +149,7 @@
 }
 @media (max-width: 550px) {
   nav {
-    padding: 6px 5%;
+    padding: 1% 5%;
   }
 }
 @media (max-width: 500px) {
@@ -187,7 +192,7 @@
 }
 @media (max-width: 350px) {
   .mobil-bar {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .infos {
     padding: 5% 5% 9% 5%;
@@ -218,9 +223,6 @@
   .intro {
     font-size: 0.8rem;
   }
-  .mobil-bar {
-    font-size: 1.1rem;
-  }
   .img-Maternelle-ToolTip {
     height: 120px;
     width: 120px;
@@ -250,5 +252,8 @@
   }
   .button:hover .img-Maternelle-ToolTip {
     top: -810%;
+  }
+  .mobil-bar {
+    font-size: 1.1rem;
   }
 }
