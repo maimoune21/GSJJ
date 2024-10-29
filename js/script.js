@@ -1,3 +1,10 @@
+function setVisibleHeight() {
+    const visibleHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+    document.documentElement.style.setProperty('--visible-vh', `${visibleHeight}px`);
+}
+setVisibleHeight();
+window.visualViewport.addEventListener('resize', setVisibleHeight);
+
 /******************************************************************************/
 /* Calculate Years of expertise and Animate Numbers */
 document.addEventListener("DOMContentLoaded", function () {
