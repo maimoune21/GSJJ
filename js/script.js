@@ -1,13 +1,4 @@
 /******************************************************************************/
-/* Calculate Height view port */
-function setViewportHeight() {
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-}
-setViewportHeight();
-window.addEventListener('resize', setViewportHeight);
-
-/******************************************************************************/
 /* Calculate Years of expertise and Animate Numbers */
 document.addEventListener("DOMContentLoaded", function () {
   const startYear = 2002;
