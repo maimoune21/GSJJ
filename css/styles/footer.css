@@ -38,6 +38,7 @@
   cursor: pointer;
   transition: 0.3s ease-in-out;
   border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 .footer-logo-GSJJ:hover {
   transform: scale(1.04);
@@ -253,6 +254,7 @@
 .location {
   height: 250px;
   width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 .copyright {
   position: relative;
@@ -288,6 +290,7 @@
   z-index: 999;
   background-color: #333c4e;
   border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 .stroke {
   position: absolute;
@@ -393,6 +396,7 @@
 }
 .copyright-logo {
   width: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 .MyName {
   text-decoration: none;
