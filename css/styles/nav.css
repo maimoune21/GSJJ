@@ -4,11 +4,17 @@ header {
 .main-img{
   position: absolute;
   top: 16%;
-  left: 3%;
-  height: 80px;
-  width: 80px;
+  left: 2%;
+  height: 70px;
+  width: 70px;
   z-index: 9999;
   border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
+}
+.main-img:hover {
+  transform: scale(1.04);
+  cursor: pointer;
 }
 nav {
   position: relative;
@@ -174,6 +180,7 @@ ul {
 .language-dropdown {
   position: relative;
   display: inline-block;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 #english-button {
   display: flex;
@@ -216,4 +223,7 @@ ul {
 }
 .dropdown-menu.show {
   display: block;
+}
+.mobil-bar{
+  display: none;
 }
