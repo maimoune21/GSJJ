@@ -472,6 +472,9 @@ ul {
   display: block;
   top: -1540%;
 }
+.mobil-bar{
+  display: none;
+}
 /*<!--************************************************************-->*/
 /*<!------------------------ #MAIN: -------------------------------->*/
 /*<!--************************************************************-->*/
@@ -759,6 +762,7 @@ ul {
   color: #70b8ba;
   cursor: pointer;
   font-weight: bold;
+  display: block;
 }
 .read-more-toggle:checked + .hidden-text {
   display: inline;
